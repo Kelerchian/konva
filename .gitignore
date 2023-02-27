@@ -12,13 +12,15 @@ homedocs
 jsdoc-template
 api
 package-lock.json
-lib
 src_old
 *.zip
 *_cache
 types
 out.png
-cmj
+# lib and cmj are intentionally not ignored so that it can be downloaded via
+# npm git url dependency
+# lib
+# cmj
 
 # Numerous always-ignore extensions
 *.diff
